@@ -10,7 +10,7 @@ body {
     background-image: url(b755b5ba-c1a4-4d26-b902-8256c10eea57.jpg); /* Cambia 'fondopantalla.jpg' por la ruta correcta */
     background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
     background-position: center center; /* Centra la imagen */
-    background-attachment: fixed; /* Hace que la imagen se quede fija cuando se hace scroll */
+    background-attachment: scroll; /* Hace que la imagen se quede fija cuando se hace scroll */
 }
 
 
