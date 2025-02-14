@@ -1,16 +1,18 @@
 /* General */
-body {
+html, body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
     margin: 0;
     position: relative;
-    overflow: hidden;
-    height: 100vh; /* Asegura que ocupe toda la pantalla */
-    Background-image: -webkit-image-set(url('./b755b5ba-c1a4-4d26-b902-8256c10eea57.jpg') 1x); /* Cambia 'fondopantalla.jpg' por la ruta correcta */
-    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
-    background-position: center center; /* Centra la imagen */
-    background-attachment: scroll; /* Hace que la imagen se quede fija cuando se hace scroll */
+    overflow: hidden;   
+    height: 100%;
+    width: 100%;
+    background-image: url('./b755b5ba-c1a4-4d26-b902-8256c10eea57.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 
